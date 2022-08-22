@@ -7,9 +7,7 @@ legends = [
   "indent", // Tab
   "square-a-lock", // Caps
   "turn-down-left", // Enter
-  "up-from-line", // Right shift
-  "square-2", // Layer 2
-  "square-3" // Layer 3
+  "up-from-line" // Right shift
 ];
 
 for(x = [0:len(legends)-1]) {
