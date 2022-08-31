@@ -1,14 +1,17 @@
+// load general Launch configs
 include <./launch.scad>
+// for printing face down
+include <./upside_down.scad>
 
 $font = "Font Awesome 6 Pro Solid";
 $font_size = 4;
 
 legends = [
-  "command", // Left Ctrl
   "grid-2", // Super/Meta/Windows
+  "bars", // Menu
   "alt", // Left Alt
   "link-horizontal", // Right Alt (Compose)
-  "bars" // Menu (in lieu of Right Ctrl)
+  "square-2" // layer switch
 ];
 
 for(x = [0:len(legends)-1]) {

@@ -1,4 +1,7 @@
+// load general Launch configs
 include <./launch.scad>
+// for printing face down
+include <./upside_down.scad>
 
 $font = "Font Awesome 6 Pro Solid";
 $font_size = 5;
