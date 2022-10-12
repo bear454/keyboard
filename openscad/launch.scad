@@ -4,11 +4,14 @@ include <./KeyV2/includes.scad>
 $stem_type = "rounded_cherry";
 $stabilizer_type = "cherry_stabilizer";
 $support_type = "bars";
+$stem_slop = 0.05;
+$stem_inner_slop = 0.05;
 
 // sizing
-$total_depth = 8.3;
-$stem_throw = 5;
-$keytop_thickness = 0.0;
+$total_depth = 9.3;
+$stem_throw = 3.8;
+$stem_inset = 1.0;
+$keytop_thickness = 0;
 
 // key shape
 $top_tilt = 0;
@@ -18,4 +21,4 @@ $wall_thickness = 2;
 $corner_radius = 2;
 
 //legend
-$inset_legend_depth = 0.15;
+$inset_legend_depth = 0.4;
